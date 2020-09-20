@@ -1,0 +1,75 @@
+html {
+    background-color: #6aaaff;
+}
+
+body {
+    width: 1000px;
+    margin: auto;
+    background-color: rgb(207, 231, 214);
+    border-radius: 55px;
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+    color: rgba(71, 40, 23, 0.897);
+    font-size: 20px;
+}
+
+.Who,
+.Main_Info,
+.Personal_information,
+.Contacts {
+    display: flex;
+}
+
+.Name {
+    text-align: left;
+    margin-left: 50px;
+}
+
+.Personal_information {
+    height: 350px;
+    text-align: center;
+}
+
+.Main_Info {
+    flex-direction: column;
+}
+
+.Left_Column,
+.English {
+    border-left: 10px solid rgba(163, 163, 163, 0.589);
+}
+
+.Personal_information,
+.English {
+    margin-left: 130px;
+}
+
+.Personal_information {
+    text-align: left;
+}
+
+.Left_Column {
+    padding-left: 30px;
+}
+
+.Left_Column,
+.Right_Column {
+    width: 500px
+}
+
+.Skills,
+.Work_Experience,
+.Code_Examples,
+.Education {
+    height: 175px;
+}
+
+.Contacts {
+    justify-content: space-around;
+    margin: 0;
+}
+
+h3 {
+    margin: 30px 0 0 0;
+    font-size: 27px
+}
