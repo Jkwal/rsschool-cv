@@ -18,11 +18,12 @@ body {
 .Personal_information,
 .Contacts {
     display: flex;
+    margin-left: 10px;
 }
 
 .Name {
     text-align: left;
-    margin-left: 50px;
+    margin-left: 30px;
 }
 
 .Personal_information {
@@ -36,7 +37,7 @@ body {
 
 .Left_Column,
 .English {
-    border-left: 10px solid rgba(163, 163, 163, 0.589);
+    border-left: 10px solid #b4bcc7;
 }
 
 .Personal_information,
